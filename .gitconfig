@@ -1,0 +1,9 @@
+[alias]
+	yolo = !git commit -m \"$(curl -s https://whatthecommit.com/index.txt)\"
+[init]
+	defaultBranch = master
+[pull]
+	rebase = false
+[user]
+	name = fauxpenhauer
+	email = fxpnhr@proton.me

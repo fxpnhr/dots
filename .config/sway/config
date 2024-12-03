@@ -12,7 +12,7 @@ set $up k
 set $right l
 
 ## Terminal emulator
-set $term (footclient || foot)
+set $term footclient
 
 ## App launcher
 set $menu wmenu-run -i \
@@ -22,7 +22,7 @@ set $menu wmenu-run -i \
   -s 2e3440 -S 8fbcbb \
 
 ## Web browser
-set $browser (firefox || firefox-bin)
+set $browser firefox-bin
 
 ## Path to wallpapers
 set $papes $HOME/.wallpapers/
